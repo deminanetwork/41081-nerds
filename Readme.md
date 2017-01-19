@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Галина Демина](https://up.htmlacademy.ru/htmlcss/16/user/41081).
-* Наставник: `Неизвестно`.
+* Наставник: [Вадим Новаш](https://up.htmlacademy.ru/htmlcss/16/tutors).
 
 ---
 
