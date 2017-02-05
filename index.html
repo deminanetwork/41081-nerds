@@ -5,8 +5,148 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+      <div class="container">
+        <div class="index-logo">
+          <img src="img/index-logo.png" alt="Nerds">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Cтудия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section class="slider">
+        <div class="column">
+          <h1>Долго, дорого, скрупулезно</h1>
+          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="slider-image"
+          <img src="img/phones.png" alt="Phones">
+        </div>
+      </section>
+      <section class="slider">
+        <div class="column">
+          <h1>Любим математику как никто другой</h1>
+          <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="slider-image"
+          <img src="img/pc.png" alt="PC">
+        </div>
+      </section>
+      <section class="slider">
+        <div class="column">
+          <h1>Только ночь, только хардкор</h1>
+          <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="slider-image"
+          <img src="img/gadjets.png" alt="Gadjets">
+        </div>
+      </section>
+      <section class="features">
+        <div class="feature-item">
+          <img src="img/pc-feature.png" alt="PC-feature">
+          <b>Веб-сайты</b>
+          <p>Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
+          <a class="button" href="#">Заказать</a>
+        </div>
+        <div class="feature-item">
+          <img src="img/phone-feature.png" alt="phone-feature">
+          <b>Приложения</b>
+          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+          <a class="button" href="#">Заказать</a>
+        </div>
+        <div class="feature-item">
+          <img src="img/presentation-feature.png" alt="presentation-feature">
+          <b>Презентации</b>
+          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+          <a class="button" href="#">Заказать</a>
+        </div>
+      </section>
+      <section class="info">
+        <div class="info-text">
+          <h2>Мы-маленькая, но гордая дизайн-студия из Краснодара.</h2>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <h3>Выполняем заказы на разработку:</h3>
+          <ul>
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <div class="info=fact">
+          <img src="nerds-illustration.jpeg" alt="logotype">
+          <h3>С 2004 года любим точность во всем:</h3>
+          <span>146</span><sup>%</sup>
+          <span>100</span><sup>%</sup>
+          <span>50</span><sup>%</sup>
+          <p>Уровень самоотдачи</p>
+          <p>Соблюдение сроков</p>
+          <p>Минимальная предоплата</p>
+        </div>
+      </section>
+      <section class="clients">
+        <img src="logo-1.png" alt="htmlacademy">
+        <img src="logo-2.png" alt="borodinski">
+        <img src="logo-3.png" alt="pink">
+        <img src="logo-4.png" alt="mishka">
+      </section>
+      <section class="map">
+        <img src="map.png" alt="map">
+        <div class="contacts">
+          <h3>Nerds design studio</h3>
+          <p>
+            191186, Санкт-Петербург,<br>
+            ул.Б.Конюшенная, д.19.8
+          </p>
+          <p>тел. +7(812)275-75-75</p>
+          <a class="button" href="#">Напишите нам</a>
+          <img src="map-marker.png" alt="nerds">
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="footer-social">
+        <a class="social-btn" href="#">Вконтакте</a>
+        <a class="social-btn" href="#">Фейсбук</a>
+        <a class="social-btn" href="#">Инстаграм</a>
+      </section>
+      <div class="slogan">
+        <strong>Давайте дружить, это выгодно!</strong>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
+    <section class="modal">
+      <p>Напишите нам</p>
+      <button class="modal-close"><img src="close-cross.png"></button>
+      <form class="modal-form" action="#" method="post">
+        <p class="modal">Ваше имя</p>
+        <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+        <p class="modal">Ваш e-mail</p>
+        <input type="text" name="e-mail" placeholder="Для отправки ответа">
+        <p class="modal">Текст письма</p>
+        <input type="text" name="text" placeholder="В свободной форме">
+        <a class="modal-btn" href="#">Отправить</a>
+      </form>
+    </section>
   </body>
 </html>
