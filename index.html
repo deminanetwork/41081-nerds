@@ -93,7 +93,7 @@
             <li>Слайдшоу и видео для корпоративных презентаций</li>
           </ul>
         </div>
-        <div class="info=fact">
+        <div class="info-fact">
           <img src="nerds-illustration.jpeg" alt="logotype">
           <h3>С 2004 года любим точность во всем:</h3>
           <span>146</span><sup>%</sup>
@@ -105,10 +105,18 @@
         </div>
       </section>
       <section class="clients">
-        <img src="logo-1.png" alt="htmlacademy">
-        <img src="logo-2.png" alt="borodinski">
-        <img src="logo-3.png" alt="pink">
-        <img src="logo-4.png" alt="mishka">
+        <a href="#" target="_blank">
+         <img src="logo-1.png" alt="htmlacademy">
+        </a>
+        <a href="#" target="_blank">
+          <img src="logo-2.png" alt="borodinski">
+        </a>
+        <a href="#" target="_blank">
+          <img src="logo-3.png" alt="pink">
+        </a>
+        <a href="#" target="_blank">
+          <img src="logo-4.png" alt="mishka">
+        </a>
       </section>
       <section class="map">
         <img src="map.png" alt="map">
@@ -137,15 +145,15 @@
     </footer>
     <section class="modal">
       <p>Напишите нам</p>
-      <button class="modal-close"><img src="close-cross.png"></button>
+      <div class="modal-close"><img src="close-cross.png"></div>
       <form class="modal-form" action="#" method="post">
-        <p class="modal">Ваше имя</p>
-        <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
-        <p class="modal">Ваш e-mail</p>
-        <input type="text" name="e-mail" placeholder="Для отправки ответа">
-        <p class="modal">Текст письма</p>
-        <input type="text" name="text" placeholder="В свободной форме">
-        <a class="modal-btn" href="#">Отправить</a>
+        <label for="name-field" class="modal">Ваше имя</label>
+        <input id="name-field" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+        <label for="email-field" class="modal">Ваш e-mail</label>
+        <input id="email-field" type="text" name="e-mail" value="" placeholder="Для отправки ответа">
+        <label for="text-field" class="modal">Текст письма</label>
+        <input id="text-field" type="text" name="text" value="" placeholder="В свободной форме">
+        <button class="modal-button" type="submit">Отправить</button>
       </form>
     </section>
   </body>
