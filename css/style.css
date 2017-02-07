@@ -1,0 +1,23 @@
+body {
+   font-size: 16 pt;
+   line-height: 24 pt;
+   color: #283136;
+   font-weight: normal;
+   font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 55 pt;
+  line-height: 55 pt;
+  color: #000000;
+  font-weight: medium;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 45 pt;
+  line-height: 45 pt;
+  color: #283136;
+  font-weight: medium;
+  font-family: "Roboto", sans-serif;
+}
