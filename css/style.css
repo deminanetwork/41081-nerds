@@ -1,23 +1,23 @@
 body {
-   font-size: 16 pt;
-   line-height: 24 pt;
+   font-size: 16 pх;
+   line-height: 24 pх;
    color: #283136;
    font-weight: normal;
-   font-family: "Roboto", sans-serif;
+   font-family: "Roboto", "Tahoma", sans-serif;
 }
 
 h1 {
-  font-size: 55 pt;
-  line-height: 55 pt;
+  font-size: 55 pх;
+  line-height: 55 pх;
   color: #000000;
   font-weight: medium;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Tahoma", sans-serif;
 }
 
 h2 {
-  font-size: 45 pt;
-  line-height: 45 pt;
+  font-size: 45 pх;
+  line-height: 45 pх;
   color: #283136;
   font-weight: medium;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Tahoma", sans-serif;
 }
